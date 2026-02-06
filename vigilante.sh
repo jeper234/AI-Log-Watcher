@@ -3,7 +3,7 @@
 # Configuración
 LOG_FILE="/var/log/auth.log"
 PYTHON_SCRIPT="/home/tecnico/ai_log_watcher/analizador.py"
-VENV_PATH="/home/tecnico/ai_log_watcher/venv/bin/python"
+VENV_PATH="/home/tecnico/venv/bin/python"
 COOLDOWN=600 # 10 minutos en segundos
 ULTIMA_CONSULTA=0
 
