@@ -1,11 +1,15 @@
+import os
+import sys  # <--- ¡Asegúrate de tener ambos!
 import google.generativeai as genai
-import sys
 
-# Configuración limpia
-API_KEY = "TU_API_KEY_AQUI"
-genai.configure(api_key=API_KEY)
+# Cargamos la clave desde el sistema (Seguridad)
+api_key = os.getenv("GEMINI_API_KEY")
 
-# Usamos el modelo más estable del Free Tier
+if not api_key:
+    print("❌ Error: Configura la variable GEMINI_API_KEY")
+    sys.exit(1)
+
+genai.configure(api_key=api_key)
 model = genai.GenerativeModel('gemini-2.0-flash')
 
 def analizar():
