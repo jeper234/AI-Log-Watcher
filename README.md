@@ -62,3 +62,5 @@ De acuerdo, analicemos este log de seguridad y cómo bloquear el origen del ataq
 **Conclusión Inicial:**
 
 Este log indica un intento de inicio de sesión fallido a través de SSH con un usuario inválido, proveniente de la dirección IP 192.168.40.1.  Esto sugiere un ataque de fuerza bruta o un escaneo en busca de nombres de usuario vulnerables.  Es una actividad maliciosa.```
+
+![Ataque detectado](Ataque_detectado.png)
