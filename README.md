@@ -67,7 +67,7 @@ Este log indica un intento de inicio de sesión fallido a través de SSH con un 
 ### 📸 Evidencias del Funcionamiento
 
 **Detección del ataque en tiempo real:**
-![Detección de ataque](Ataque_detectado.png)
+![Detección de ataque](img/Ataque_detectado.png)
 
 **Informe detallado generado por Gemini:**
-![Análisis de la IA](Análisis_IA_1.png)
+![Análisis de la IA](img/Análisis_IA_1.png)
