@@ -24,7 +24,7 @@ Este proyecto es un sistema de detección de intrusiones (IDS) ligero diseñado 
 Para proteger la integridad del sistema, la API Key se gestiona como variable de entorno:
 ```bash
 export GEMINI_API_KEY="tu_clave_de_google_cloud"   
-
+```
 ## Resultados de la Simulación 
 
 **1. Captura del evento en la terminal:**
@@ -61,6 +61,13 @@ De acuerdo, analicemos este log de seguridad y cómo bloquear el origen del ataq
 
 **Conclusión Inicial:**
 
-Este log indica un intento de inicio de sesión fallido a través de SSH con un usuario inválido, proveniente de la dirección IP 192.168.40.1.  Esto sugiere un ataque de fuerza bruta o un escaneo en busca de nombres de usuario vulnerables.  Es una actividad maliciosa.```
+Este log indica un intento de inicio de sesión fallido a través de SSH con un usuario inválido, proveniente de la dirección IP 192.168.40.1.  Esto sugiere un ataque de fuerza bruta o un escaneo en busca de nombres de usuario vulnerables.  Es una actividad maliciosa. 
+```
 
+### 📸 Evidencias del Funcionamiento
 
+**Detección del ataque en tiempo real:**
+![Detección de ataque](Ataque_detectado.png)
+
+**Informe detallado generado por Gemini:**
+![Análisis de la IA](Análisis_IA_1.png)
